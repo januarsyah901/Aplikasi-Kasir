@@ -29,11 +29,12 @@ git clone https://github.com/januarsyah901/Aplikasi-Kasir.git
 ### 3. Konfigurasi Database
 1. Buat database di MySQL (atau database lain yang Anda gunakan).
 2. Import file SQL yang berisi struktur tabel dan data awal (jika ada).
+3. Jalankan perintah di file schema.sql untuk membuat tabel yang diperlukan.
 3. Perbarui konfigurasi koneksi database di file `src/util/DatabaseConnection.java`:
    ```java
-   private static final String URL = "jdbc:mysql://localhost:3306/nama_database";
-   private static final String USER = "username";
-   private static final String PASSWORD = "password";
+   private static final String URL = "jdbc:mysql://localhost:3306/kasir_db";
+   private static final String USER = "root";
+   private static final String PASSWORD = "";
    ```
 
 ### 4. Jalankan Aplikasi
