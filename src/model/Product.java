@@ -11,6 +11,7 @@ public class Product {
     private LocalDateTime createdAt;
 
     public Product() {
+        // sengaja untuk ORM atau inisialisasi default
     }
 
     public Product(int id, String name, BigDecimal price, int stock, LocalDateTime createdAt) {

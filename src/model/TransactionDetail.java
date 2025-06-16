@@ -11,6 +11,7 @@ public class TransactionDetail {
     private BigDecimal price;
 
     public TransactionDetail() {
+        // Sengaja untuk ORM atau inisialisasi default
     }
 
     public TransactionDetail(int id, int transactionId, int productId, String productName, int quantity, BigDecimal price) {

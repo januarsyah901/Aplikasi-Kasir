@@ -12,7 +12,7 @@ public class LoginFrame extends JFrame {
     private JPasswordField passwordField;
 
     public LoginFrame() {
-        setTitle("POS System - Login");
+        setTitle("Login Dulu - Login");
         setSize(400, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -25,7 +25,7 @@ public class LoginFrame extends JFrame {
         mainPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
 
         // Title
-        JLabel titleLabel = new JLabel("POS System Login", SwingConstants.CENTER);
+        JLabel titleLabel = new JLabel("Login", SwingConstants.CENTER);
         titleLabel.setFont(new Font("Arial", Font.BOLD, 20));
         mainPanel.add(titleLabel, BorderLayout.NORTH);
 
